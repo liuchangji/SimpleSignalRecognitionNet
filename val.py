@@ -18,7 +18,7 @@ PICK_INDEX = cfg["data_pick_index"]
 WEIGHT_SAVE_NAME = cfg["weight_save_name"]
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
-net = SignalRecognitionNet_v3(input_channel=2, output_class=3).to(device)  # 初始化网络
+net = SignalRecognitionNet_v3(input_channel=INPUT_CHANNEL, output_class=OUTPUT_CLASS).to(device)  # 初始化网络
 PATH = './weights/my_net-best.pth'  # 权重保存路径
 net.load_state_dict(torch.load(PATH))  # 加载权重
 VAL_DATA = Signaldata(VAL_DATA_PATH, pick_index=PICK_INDEX, data_length=DATA_LENGTH, val=True)
