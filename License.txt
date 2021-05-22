@@ -1,0 +1,11 @@
+5.20 2021 完成
+
+使用CNN的信号识别网络  SRN:SignalRecognitionNet
+
+中科院长春光机所 图像部 刘长吉 464122508@qq.com
+
+随便用
+
+CIOMP,Image process department.
+
+Just do the anything you want to do.

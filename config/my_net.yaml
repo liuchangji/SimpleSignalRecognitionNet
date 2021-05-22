@@ -1,0 +1,10 @@
+# training
+nc: 4  # number of classes
+input_channel: 1  #this number must same as len(data_pick_index) .
+data_pick_index: [0] # choose which demension data,from 0 ,意思是选你数据集中哪几列数据,从0开始,如果你只有一列的数据,那就填0列
+data_length: 100 # length of your data,data will be auto resize by NEAREST. 输入数据长度,不等于这个的会被缩放,最近邻插值
+
+train_dataset : "./data/simple_signal/train"
+val_dataset : "./data/simple_signal/val"
+
+weight_save_name : "my_net.pth" #chooose your wights name for saving
