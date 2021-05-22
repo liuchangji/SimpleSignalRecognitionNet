@@ -1,6 +1,13 @@
 # SSR-NET:SimpleSignalRecognitionNet
 # 简单信号识别网络
 中科院长春光学精密机械与物理研究所 图像处理技术研究部 刘长吉
+
+## 环境
+python 3.7.7
+pytorch 1.7.0
+PIL
+numpy
+其他的缺啥补啥
 ## 程序结构
 data_loader.py:数据集加载器
 
