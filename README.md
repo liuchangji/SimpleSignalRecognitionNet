@@ -1,7 +1,7 @@
 # SSR-NET:SimpleSignalRecognitionNet
 # 简单信号识别网络
 中科院长春光学精密机械与物理研究所 图像处理技术研究部 刘长吉
-
+视频介绍https://www.bilibili.com/video/BV14A411g7p9/
 ## 环境
 python 3.7.7
 pytorch 1.7.0
