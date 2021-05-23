@@ -44,6 +44,7 @@ txt每一行为一个采样时间单位
 
 ### 2.设置config.yaml文件
 在config文件夹中创建你的配置文件(参考my_net.yaml)
+
 nc: 4  # 类别数量
 
 input_channel: 1  输入数据的维度
