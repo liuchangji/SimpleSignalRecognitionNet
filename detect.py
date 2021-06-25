@@ -6,7 +6,7 @@ import numpy as np
 from config.read_config import parse_cfg
 from PIL import Image
 cfg = parse_cfg()
-DATA_LENGTH = cfg["data_pick_index"]
+DATA_LENGTH = cfg["data_length"]
 INPUT_CHANNEL = cfg["input_channel"]
 OUTPUT_CLASS = cfg["nc"]
 PICK_INDEX = cfg["data_pick_index"]  # 选取数据的第几列作为输入,如果你的数据是五个维度,全部需要的话就是[0,1,2,3,4]
